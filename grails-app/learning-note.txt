@@ -1,0 +1,13 @@
+1) Create Domain
+Domain contain the database relation
+
+We first create: grails-app/domain/taskmaster/Task.groovy
+Command: grails create-domain-class taskmaster.Task
+"grails" notify we are writting command for grails
+"create-domain-class taskmaster.Task" generating folder name taskmaster with file Task.groovy and a class Task
+
+static constraint is where we set the conditions for variable of the object (class)
+
+2) Create service, this contain the logic
+Command: grails create-service taskmaster.Task
+
